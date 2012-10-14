@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/takeSnapButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:onClick="takeSnapOnClick"
+        android:text="Take the sanp of location" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/takeSnapButton"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/progressBar1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/progressBar1"
+        android:text="Waiting for GPS Location"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:max="5"
+        
+        android:progress="1"
+        android:layout_below="@+id/imageView1" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar1"
+        android:layout_toLeftOf="@+id/button1"
+        android:ems="10"
+        android:hint="This is optional field, but help us to serve our society better with detailed message of issue with maximun of 300 charcters "
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar1"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Priority"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:text="Submit" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+D:\Rizwan\Projects\Web Apps\HelpBMC\BusinessObject\obj\Debug\ResolveAssemblyReference.cache
+D:\Rizwan\Projects\Web Apps\HelpBMC\BusinessObject\bin\Debug\BusinessObject.dll
+D:\Rizwan\Projects\Web Apps\HelpBMC\BusinessObject\bin\Debug\BusinessObject.pdb
+D:\Rizwan\Projects\Web Apps\HelpBMC\BusinessObject\bin\Debug\MySql.Data.dll
+D:\Rizwan\Projects\Web Apps\HelpBMC\BusinessObject\obj\Debug\BusinessObject.dll
+D:\Rizwan\Projects\Web Apps\HelpBMC\BusinessObject\obj\Debug\BusinessObject.pdb
